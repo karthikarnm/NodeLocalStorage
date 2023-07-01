@@ -1,0 +1,33 @@
+GET  http://localhost:3000/
+
+
+###
+
+POST  http://localhost:3000/post
+Content-Type: application/json
+
+{
+    "name":"karthik",
+    "email":"kk@112"
+}
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name":"karthik",
+    "email":"kka@3"
+}
+
+
+###
+
+POST http://localhost:3000/remove
+Content-Type: application/json
+
+{
+    "email":"kk@112"
+}
